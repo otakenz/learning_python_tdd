@@ -1,0 +1,11 @@
+# File              : .pre-commit-config.yaml
+# Author            : leejhunhong <jhunhong.lee@outlook.com>
+# Date              : 07.05.2021
+# Last Modified Date: 07.05.2021
+# Last Modified By  : leejhunhong <jhunhong.lee@outlook.com>
+
+repos:
+-   repo: https://gitlab.com/PyCQA/flake8
+    rev: 3.8.3
+    hooks:
+    -   id: flake8
